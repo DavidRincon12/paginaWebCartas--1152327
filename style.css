@@ -4,9 +4,11 @@
   height: 100px;
 }
 
-.card-container {
-  width: 50%;
-}
+.card-container,
+  .flex-container {
+    width: 45%; /* Ancho completo en pantallas menores */
+    flex-direction: column; /* Elementos apilados verticalmente en pantallas menores */
+  }
 .container {
   display: flex;
 }
