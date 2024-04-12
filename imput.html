@@ -15,48 +15,46 @@
       <img src="imgs/showdown.jpg" alt="" />
     </div>
   </header>
-</body>
 
-<body>
   <div class="container">
 
     <div class="card-container">
-      <button><img src="imgs/1.png" alt="" \></button>
-      <button><img src="imgs/2.png" alt="" \></button>
-      <button><img src="imgs/3.png" alt="" \></button>
-      <button><img src="imgs/4.png" alt="" \></button>
-      <button><img src="imgs/5.png" alt="" \></button>
-      <button><img src="imgs/6.png" alt="" \></button>
-      <button><img src="imgs/7.png" alt="" \></button>
-      <button><img src="imgs/8.png" alt="" \></button>
-      <button><img src="imgs/9.png" alt="" \></button>
-      <button><img src="imgs/10.png" alt="" \></button>
-      <button><img src="imgs/11.png" alt="" \></button>
-      <button><img src="imgs/12.png" alt="" \></button>
-      <button><img src="imgs/13.png" alt="" \></button>
+      <button class="contenedor_cartas" data-numero="1"><img src="imgs/1.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="2"><img src="imgs/2.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="3"><img src="imgs/3.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="4"><img src="imgs/4.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="5"><img src="imgs/5.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="6"><img src="imgs/6.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="7"><img src="imgs/7.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="8"><img src="imgs/8.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="9"><img src="imgs/9.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="10"><img src="imgs/10.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="11"><img src="imgs/11.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="12"><img src="imgs/12.png" alt="" /></button>
+      <button class="contenedor_cartas" data-numero="13"><img src="imgs/13.png" alt="" /></button>
     </div>
     <div id="tablaCartas">
-      <table>
-        <tr>
-          <th>numero</th>
-          <th>carta</th>
-          <th>cantidad</th>
-        </tr>
-        <tr>
-          
-        </tr>
-        
-        </tr>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Numero</th>
+            <th>Carta</th>
+            <th>Cantidad</th>
+          </tr>
+        </thead>
+        <tbody id="dataTable">
+        </tbody>
       </table>
-      <div class="form">
-        <form class="form-container">
-          <input type="text" name="numCarta" id="" placeholder="Numero de carta" required>
-          <input type="text" name="carta" id="" placeholder="Carta" required>
-          <button type="submit">Guardar</button>
-        </form>
-      </div>
     </div>
-    <script src="javascript.js"></script>
+    <div class="form">
+      <form id="dataForm" class="form-container">
+        <input type="text" name="numero_carta" id="numero_carta" placeholder="Número de carta" required>
+        <input type="text" name="carta" id="carta" placeholder="Carta" required>
+        <button type="submit">Guardar</button>
+      </form>
+    </div>
+  </div>
+  <script src="javascript.js"></script>
 </body>
 
 </html>
