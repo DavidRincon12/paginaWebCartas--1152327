@@ -1,5 +1,71 @@
-[{"numero": "1","carta": "As", "0"},
-	{"numero": "2","carta": "1", "0"},
-	{"numero": "3","carta": "2", "0"},
-	{"numero": "4","carta": "3", "0"},
-	{"numero": "5","carta": "4", "0"}]
+{
+	"data": [
+	  {
+		"numero": "1",
+		"carta": "As",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "2",
+		"carta": "Dos de diamantes",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "3",
+		"carta": "Tres de corazones",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "4",
+		"carta": "Cuatro de corazones",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "5",
+		"carta": "Cinco de corazones",
+		"cantidad": "0"
+	  }
+	  ,
+	  {
+		"numero": "6",
+		"carta": "Seis de treboles",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "7",
+		"carta": "Siete de diamantes",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "8",
+		"carta": "Ocho de treboles",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "9",
+		"carta": "Nueve de diamantes",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "10",
+		"carta": "Dies de corazones",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "11",
+		"carta": "Jota",
+		"cantidad": "0"
+	  }
+	  ,
+	  {
+		"numero": "12",
+		"carta": "Queen",
+		"cantidad": "0"
+	  },
+	  {
+		"numero": "13",
+		"carta": "King",
+		"cantidad": "0"
+	  }
+	]
+  }
