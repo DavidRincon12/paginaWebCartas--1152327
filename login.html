@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="styleLogin.css">
+</head>
+<body>
+  <header>
+    <h1>Inicio de Sesion</h1>
+  </header>
+  <section>
+    <form action="index.html" method="post">
+      <label for="usuario">Usuario:</label>
+      <input type="text" name="usuario" id="usuario" required>
+      <br>
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" name="contrasena" id="contrasena" required>
+      <br>
+      <button type="submit">Entrar</button>
+    </form>
+  </section>
+  
+  </script>
+  <script>
+  document.querySelector("form").addEventListener("submit", function(event) {
+    const user = document.getElementById("usuario").value;
+    const pass = document.getElementById("contrasena").value;
+    if (user !== "admin" || pass !== "1234") {
+      event.preventDefault();
+      document.querySelector("form p.error").textContent = "Usuario o contraseña incorrecta, intentelo de nuevo";
+      document.querySelector("form p.error").hidden = false;
+    } else {
+      document.querySelector("form p.error").hidden = true;
+    }
+  });
+</script>
+  <p class="error" hidden></p>
+  
+  <script>
+  document.querySelector("form").addEventListener("submit", function(event) {
+    const user = document.getElementById("usuario").value;
+    const pass = document.getElementById("contrasena").value;
+    if (user === "admin" && pass === "1234") {
+      event.preventDefault();
+      window.location.href = "imput.html";
+    }
+  });
+</script>
+

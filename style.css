@@ -16,6 +16,8 @@
 .container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+    align-items: center;
 }
 
 .imagenShow img {
@@ -36,6 +38,15 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.form{
+  margin-top: 20px;
+
+    clear: both;
+    display: flex;
+    justify-content: center;
+
 }
 
 .form-container input[type="text"],
@@ -91,7 +102,6 @@ table {
   border-collapse: collapse;
   margin-bottom: 10%;
 }
-
 th,
 td {
   padding: 10px;
