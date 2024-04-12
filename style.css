@@ -13,6 +13,9 @@
     width: 45%; 
     flex-direction: column; 
   }
+
+
+
 .container {
   
   display: flex;
@@ -42,8 +45,7 @@
 }
 
 .form{
-  margin-top: 20px;
-  
+  margin-top: 5px;
     clear: both;
     display: flex;
     justify-content: center;
