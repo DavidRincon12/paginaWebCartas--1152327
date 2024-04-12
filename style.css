@@ -9,11 +9,12 @@
 }
 
 .card-container,
-  .flex-container {
-    width: 45%; /* Ancho completo en pantallas menores */
-    flex-direction: column; /* Elementos apilados verticalmente en pantallas menores */
+  #tablaCartas {
+    width: 45%; 
+    flex-direction: column; 
   }
 .container {
+  
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -42,7 +43,7 @@
 
 .form{
   margin-top: 20px;
-
+  
     clear: both;
     display: flex;
     justify-content: center;
@@ -97,10 +98,12 @@
   cursor: not-allowed;
 }
 
+
 table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 10%;
+  
 }
 th,
 td {
